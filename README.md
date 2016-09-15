@@ -5,9 +5,12 @@
 <a href="https://circleci.com/gh/dingyiming/vue-pure"><img src="https://img.shields.io/circleci/project/dingyiming/vue-pure/dev.svg" alt="Build Status"></a>
 <a href="http://isitmaintained.com/project/dingyiming/vue-pure"><img src="http://isitmaintained.com/badge/resolution/dingyiming/vue-pure.svg" alt="Build Status"></a>
 <a href="http://isitmaintained.com/project/dingyiming/vue-pure"><img src="http://isitmaintained.com/badge/open/dingyiming/vue-pure.svg" alt="Build Status"></a>
+<a href="https://gitter.im/vuepure/Lobby"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Build Status"></a>
 </p>
 
 > for WebApp
+
+[![license:mit](https://img.shields.io/badge/license-mit-green.svg?style=flat-square)](#license)
 
 > 2016.09.15 update
 
