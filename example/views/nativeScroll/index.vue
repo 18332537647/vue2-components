@@ -12,6 +12,7 @@
 .nativescroll-content{
   height: 500px;
   overflow:scroll;
+  -webkit-overflow-scrolling: touch;
   text-align: center;
   border: 1px solid #ddd;
   background-color: #fff;
