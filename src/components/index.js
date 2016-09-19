@@ -1,4 +1,3 @@
-import Scroller from './scroller';
 import Grid from './grid';
 import Cell from './cell';
 import Nothing from './nothing';
@@ -10,7 +9,6 @@ import HeaderBar from './headerBar';
 export default {};
 
 export {
-  Scroller,
   Grid,
   Cell,
   Nothing,

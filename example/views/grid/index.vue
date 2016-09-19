@@ -11,7 +11,7 @@
 </div>
 </template>
 <script>
-import { Grid, Scroller } from 'components';
+import { Grid, } from 'components';
 import { orderGrid, doGrid, navGrid } from './grid';
 
 export default {
@@ -21,7 +21,6 @@ export default {
     navGrid,
   ],
   components: {
-    Scroller,
     Grid,
   },
 };

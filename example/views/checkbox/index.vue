@@ -1,18 +1,17 @@
 <template>
-<div class="app-container">
-  <scroller>
+<div class="scroll-page">
     <cell
       title="选中了"
       icon-class="i i-menu"
       :is-link="false">
-      <div style="margin-right: .2rem;color: #e66;">
-        <span v-for="(item, index) in checkList" v-if="item"  v-text="index + ','" style="margin-right:.1rem;"></span>
+      <div style="margin-right: 2rem;color: #e66;">
+        <span v-for="(item, index) in checkList" v-if="item"  v-text="index + ','" style="margin-right:1rem;"></span>
       </div>
     </cell>
     <ul>
       <li v-for="(n, index) in checkList" >
         <cell :is-link="false" :title="'序号' + index + '---小米Max全网通 标准版 3GB内存 32G ROM'" value="">
-          <div slot="icon" style="width: 1.3rem;margin-right: .05rem;margin-left:.1rem;display: flex;align-items: center;">
+          <div slot="icon" style="width: 13rem;margin-right: .5rem;margin-left:1rem;display: flex;align-items: center;">
             <checkbox
               slot="icon"
               @on-change="changeChecked"
@@ -27,12 +26,11 @@
         </cell>
       </li>
     </ul>
-  </scroller>
 </div>
 </template>
 
 <script>
-import { Checkbox, Cell, Scroller } from 'components';
+import { Checkbox, Cell, } from 'components';
 
 export default {
   data() {
@@ -60,7 +58,6 @@ export default {
   components: {
     Checkbox,
     Cell,
-    Scroller,
   },
 };
 </script>

@@ -1,6 +1,5 @@
 <template>
-<div class="app-container">
-  <scroller>
+<div>
   <input-item placeholder="请输入内容" class="mt--10"></input-item>
 
   <input-item placeholder="请输入内容"   value="123456" type="password" class="mt--10"></input-item>
@@ -14,17 +13,29 @@
       <p>点击验证</p>
     </div>
   </input-item>
-</scroller>
 </div>
 </template>
 
 <script>
-import { InputItem, Scroller } from 'components';
+import { InputItem, } from 'components';
 
 export default {
   components: {
     InputItem,
-    Scroller,
   },
 };
 </script>
+
+<style lang="scss">
+.ml--10{
+  margin-left: 1rem;
+}
+
+.mr--10{
+  margin-right: 1rem;
+}
+.mt--10{
+  margin-top: 1rem;
+}
+
+</style>

@@ -1,6 +1,5 @@
 <template>
-  <div style="height:100%;">
-    <scroller>
+  <div class="scroll-page">
       <cell
       v-for="item in cellList"
       :title="item.title"
@@ -9,11 +8,10 @@
       :icon-style="item.iconStyle"
       :is-link="false"
       @on-link="$router.push(item.link)"></cell>
-    </scroller>
   </div>
 </template>
 <script>
-import { Cell, Scroller, } from 'components';
+import { Cell, } from 'components';
 
 export default {
   data() {
@@ -32,13 +30,6 @@ export default {
           link: '/grid',
           iconClass: 'i i-order',
           iconStyle: { 'color': '#007FFF' },
-        },
-        {
-          title: 'Scroller',
-          value: '基于swiper的滚动',
-          link: '/scroller',
-          iconClass: 'i i-menu',
-          iconStyle: { 'color': '#F7BA2A' },
         },
         {
           title: 'NativeScroll',
@@ -82,12 +73,25 @@ export default {
           iconClass: 'i i-tishi',
           iconStyle: { 'color': '#13CE66' },
         },
+        {
+          title: 'Mobi.css',
+          value: '简小精悍的移动端css库',
+          link: '/mobicss',
+          iconClass: 'i i-tishi',
+          iconStyle: { 'color': '#13CE66' },
+        },
+        {
+          title: 'Spinner',
+          value: '来自loaders.css的加载小动画',
+          link: '/spinner',
+          iconClass: 'i i-tishi',
+          iconStyle: { 'color': '#13CE66' },
+        },
       ],
     };
   },
   components: {
     Cell,
-    Scroller,
   },
 };
 </script>

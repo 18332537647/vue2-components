@@ -1,10 +1,18 @@
+// 字数截断
+@mixin lineclamp($num: 1) {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $num;
+}
+
 .cell{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: .01rem solid #eee;
-  padding: .1rem 0;
+  border-bottom: .1rem solid #eee;
+  padding: .5rem 0;
   background-color: #fff;
   &-title{
     flex: 1;
@@ -17,14 +25,14 @@
   }
   &__value{
     color: #666;
-    margin-right: .1rem;
+    margin-right: 1rem;
   }
   &__icon{
-    margin-left: .1rem;
-    width: .3rem;
+    margin-left: 1rem;
+    width: 3rem;
   }
   &__link{
-    margin-right: .1rem;
+    margin-right: 1rem;
     color:#666;
   }
 }
@@ -34,8 +42,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: .01rem solid #eee;
-  padding: .1rem 0;
+  border-bottom: .1rem solid #eee;
+  padding: 1rem 0;
   background-color: #fff;
   &__title{
     @include lineclamp(2);
@@ -45,28 +53,26 @@
   }
   &__value{
     color: #666;
-    margin-left: .1rem;
+    margin-left: 1rem;
     flex: 1;
   }
   &__icon{
-    margin-left: .1rem;
-    width: .3rem;
+    margin-left: 1rem;
+    width: 3rem;
   }
   &__link{
-    margin-right: .1rem;
+    margin-right: 1rem;
     color:#666;
   }
 }
 
 .cell--title{
   width: 100%;
-  margin: .05rem .15rem;
-  font-size: 14px;
+  margin: .5rem 1rem;
   color: #666;
   display: flex;
   &__icon {
-    font-size: 16px;
-    margin-right: .05rem;
+    margin-right: .5rem;
   }
   &-title {
     display: inline-block;
@@ -82,8 +88,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: .01rem solid #eee;
-  padding: .1rem 0;
+  border-bottom: .1rem solid #eee;
+  padding: 1rem 0;
   background-color: #fff;
   &-title{
     flex: 1;
@@ -96,14 +102,14 @@
   }
   &__value{
     color: #666;
-    margin-right: .1rem;
+    margin-right: 1rem;
   }
   &__icon{
-    margin-left: .1rem;
-    width: .3rem;
+    margin-left: 1rem;
+    width: 3rem;
   }
   &__link{
-    margin-right: .1rem;
+    margin-right: 1rem;
     color:#666;
   }
 }
