@@ -41,9 +41,9 @@ export default {
           iconStyle: { 'color': '#F7BA2A' },
         },
         {
-          title: 'iScroll',
-          value: '基于iScroll5的滚动',
-          link: '/iscroll',
+          title: 'NativeScroll',
+          value: '原生滚动',
+          link: '/nativescroll',
           iconClass: 'i i-gongyingshang',
           iconStyle: { 'color': '#ff832c' },
         },

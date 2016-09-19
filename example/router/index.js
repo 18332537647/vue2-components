@@ -10,7 +10,7 @@ import Input from '../views/input';
 import Checkbox from '../views/checkbox';
 import IconText from '../views/iconText';
 import HeaderBar from '../views/headerBar';
-import IScroll from '../views/iScroll';
+import NativeScroll from '../views/nativeScroll';
 
 Vue.use(VueRouter);
 
@@ -26,6 +26,6 @@ export default new VueRouter({
     { path: '/checkbox', component: Checkbox },
     { path: '/icontext', component: IconText },
     { path: '/headerbar', component: HeaderBar },
-    { path: '/iscroll', component: IScroll },
+    { path: '/nativescroll', component: NativeScroll },
   ],
 });
