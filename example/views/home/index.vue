@@ -41,6 +41,13 @@ export default {
           iconStyle: { 'color': '#F7BA2A' },
         },
         {
+          title: 'iScroll',
+          value: '基于iScroll5的滚动',
+          link: '/iscroll',
+          iconClass: 'i i-gongyingshang',
+          iconStyle: { 'color': '#ff832c' },
+        },
+        {
           title: 'Nothing',
           value: '结果组件 - 无',
           link: '/nothing',
