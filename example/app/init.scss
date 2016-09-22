@@ -8,22 +8,23 @@ body {
   height: 100%;
 }
 
-ul,li,ol{
+ul, li, ol {
   list-style: none;
 }
 
-input, textarea, keygen, select, button{
+input, textarea, keygen, select, button {
   font-size: 14px;
 }
+
 i {
   font-size: 20px !important;
 }
 
-.app-container{
+.app-container {
   height: 100%;
 }
 // 页面平滑滚动
-.scroll-page{
+.scroll-page {
   height: 100%;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
